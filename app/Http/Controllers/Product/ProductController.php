@@ -67,7 +67,7 @@ class ProductController extends Controller
                 'content' => $request->content
             ]);
 
-            return view('pages.product.index');
+            return redirect()->route('products.index');
         }
         catch(Exception $e) {
             dd($e);

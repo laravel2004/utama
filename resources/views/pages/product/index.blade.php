@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title', 'Admin Page')
-
+{{-- @dd($products) --}}
 @section('content')
     <x-app-layout>
         <x-slot name="header">
